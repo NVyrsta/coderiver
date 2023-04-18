@@ -1,0 +1,210 @@
+@import '../../styles//mixins';
+
+
+.home__img {
+  stroke-dashoffset: 1500;
+  stroke-dasharray: 1500;
+  z-index: 1;
+  animation: img-animation 3s forwards;
+  width: 300px;
+  height: auto;
+  position: relative;
+
+  @include onTablet {
+    width: 486px;
+
+  }
+}
+
+.home__img path {
+  stroke: grey;
+  stroke-width: 2;
+  animation: letter-animation 3s forwards;
+}
+
+.group:hover path {
+  fill: #f54329;
+}
+
+
+
+
+.home {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 45px;
+  overflow-x: hidden;
+
+  
+  @include onDesktop {
+    flex-direction: row;
+    padding-left: 92px;
+    padding-right: 92px;
+      padding-bottom: 153px;
+
+
+  }
+
+  &__title {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 34px;
+    text-align: center;
+
+    @include onTablet {
+      text-align: left;
+          font-size: 90px;
+    line-height: 106px;
+    }
+  }
+
+  &__title span {
+    position: relative;
+    display: inline-block;
+    background-color: #bafd37;
+    transform: rotate(10deg);
+   border-radius: 6px;
+    width: 84px;
+    height: 40px;
+
+    @include onTablet {
+          border-radius: 20px;
+    width: 187px;
+    height: 133px;
+
+
+    }
+
+    &::after {
+      content: '*';
+      position: absolute;
+      font-family: 'Oswald';
+      font-style: normal;
+      font-weight: 500;
+
+
+      font-size: 50px;
+    top: -4px;
+    right: -9px;
+
+    @include onTablet {
+            font-size: 90px;
+      top: -32px;
+      right: -16px;
+
+    }
+    }
+  }
+
+  &__content {
+      padding-left: 20px;
+  padding-right: 20px;
+  order: 2;
+
+    @include onTablet {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 1 1 50%;
+      align-self: stretch;
+      order: 1;
+
+    }
+
+    @include onDesktop {
+            padding-left: unset;
+  padding-right: unset;
+    }
+  }
+
+  &__icons {
+    position: relative;
+    font-size: 18px;
+  }
+
+  &__icons img {
+    border-radius: 50%;
+    background-color: $primary-dark;
+    padding: 13px;
+    border: 1px solid $primary-light;
+  }
+  &__icons img:last-of-type {
+    position: absolute;
+    left: 44px;
+  }
+
+  &__img-container {
+    text-align: center;
+      order: 1;
+
+
+    @include onTablet {
+      position: relative;
+      flex: 1 1 50%;
+      order: 2;
+
+    }
+    @include onDesktop {
+      text-align: left;
+
+    }
+  }
+}
+
+.container {
+  position: relative;
+}
+.animated-line {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  stroke-dashoffset: 10000;
+  stroke-dasharray: 10000;
+  animation: line-animation 10s forwards;
+  animation-delay: 3s;
+
+  @include onDesktop {
+
+    top: 14px;
+  }
+}
+.animated-line svg {
+  width: 100%;
+
+}
+@keyframes img-animation {
+  0% {
+    fill-opacity: 0;
+  }
+  90% {
+    fill-opacity: 0;
+  }
+
+  100% {
+    fill-opacity: 1;
+  }
+}
+
+@keyframes letter-animation {
+  0% {
+    stroke-dashoffset: 1500;
+  }
+  90% {
+    stroke: grey;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke: transparent;
+  }
+}
+@keyframes line-animation {
+  0% {
+    stroke-dashoffset: 10000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
