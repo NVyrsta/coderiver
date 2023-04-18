@@ -12,6 +12,9 @@
   max-width: 1351px;
   background-color: $primary-light;
 }
+.container:last-child {
+  padding-bottom: 160px;
+}
 
 .wrapper {
     margin: 0 auto;
@@ -24,6 +27,8 @@
   &__title {
     text-align: center;
     font-family: 'Oswald';
+    padding-top: 40px;
+    padding-bottom: 60px;
     @include onTablet {
 font-size: 60px;
     }

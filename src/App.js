@@ -6,6 +6,8 @@ import Home from './components/home/Home';
 
 import './App.scss';
 
+
+
 export const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

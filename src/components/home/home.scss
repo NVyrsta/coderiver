@@ -1,6 +1,5 @@
 @import '../../styles//mixins';
 
-
 .home__img {
   stroke-dashoffset: 1500;
   stroke-dasharray: 1500;
@@ -12,7 +11,6 @@
 
   @include onTablet {
     width: 486px;
-
   }
 }
 
@@ -26,9 +24,6 @@
   fill: #f54329;
 }
 
-
-
-
 .home {
   position: relative;
   display: flex;
@@ -36,14 +31,11 @@
   padding-bottom: 45px;
   overflow-x: hidden;
 
-  
   @include onDesktop {
     flex-direction: row;
     padding-left: 92px;
     padding-right: 92px;
-      padding-bottom: 153px;
-
-
+    padding-bottom: 153px;
   }
 
   &__title {
@@ -56,8 +48,8 @@
 
     @include onTablet {
       text-align: left;
-          font-size: 90px;
-    line-height: 106px;
+      font-size: 90px;
+      line-height: 106px;
     }
   }
 
@@ -66,16 +58,14 @@
     display: inline-block;
     background-color: #bafd37;
     transform: rotate(10deg);
-   border-radius: 6px;
+    border-radius: 6px;
     width: 84px;
     height: 40px;
 
     @include onTablet {
-          border-radius: 20px;
-    width: 187px;
-    height: 133px;
-
-
+      border-radius: 20px;
+      width: 187px;
+      height: 133px;
     }
 
     &::after {
@@ -85,24 +75,22 @@
       font-style: normal;
       font-weight: 500;
 
-
       font-size: 50px;
-    top: -4px;
-    right: -9px;
+      top: -4px;
+      right: -9px;
 
-    @include onTablet {
-            font-size: 90px;
-      top: -32px;
-      right: -16px;
-
-    }
+      @include onTablet {
+        font-size: 90px;
+        top: -32px;
+        right: -16px;
+      }
     }
   }
 
   &__content {
-      padding-left: 20px;
-  padding-right: 20px;
-  order: 2;
+    padding-left: 20px;
+    padding-right: 20px;
+    order: 2;
 
     @include onTablet {
       display: flex;
@@ -111,12 +99,11 @@
       flex: 1 1 50%;
       align-self: stretch;
       order: 1;
-
     }
 
     @include onDesktop {
-            padding-left: unset;
-  padding-right: unset;
+      padding-left: unset;
+      padding-right: unset;
     }
   }
 
@@ -138,18 +125,15 @@
 
   &__img-container {
     text-align: center;
-      order: 1;
-
+    order: 1;
 
     @include onTablet {
       position: relative;
       flex: 1 1 50%;
       order: 2;
-
     }
     @include onDesktop {
       text-align: left;
-
     }
   }
 }
@@ -167,14 +151,14 @@
   animation-delay: 3s;
 
   @include onDesktop {
-
     top: 14px;
   }
 }
 .animated-line svg {
   width: 100%;
-
 }
+
+// animation for hero img
 @keyframes img-animation {
   0% {
     fill-opacity: 0;
@@ -200,6 +184,8 @@
     stroke: transparent;
   }
 }
+
+// animation for line
 @keyframes line-animation {
   0% {
     stroke-dashoffset: 10000;
