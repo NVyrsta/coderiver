@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/coderiver/static/css/main.1b39b699.css",
+    "main.js": "/coderiver/static/js/main.7d319c3c.js",
+    "static/media/hero-img.jpg": "/coderiver/static/media/hero-img.53102e031cab8cac5f5e.jpg",
+    "static/media/slide-1.jpg": "/coderiver/static/media/slide-1.91750b0402190c7e5cb4.jpg",
+    "static/media/slide-3.jpg": "/coderiver/static/media/slide-3.49f6f608f263aab80d92.jpg",
+    "static/media/slide-4.jpg": "/coderiver/static/media/slide-4.70a56e449e25a389132b.jpg",
+    "static/media/slide-5.jpg": "/coderiver/static/media/slide-5.5222bf7956dad743958f.jpg",
+    "static/media/slide-2.jpg": "/coderiver/static/media/slide-2.61b0bef09a6c41a6e4df.jpg",
+    "static/media/android.svg": "/coderiver/static/media/android.d694868929d64055302d8266631708c2.svg",
+    "static/media/apple.svg": "/coderiver/static/media/apple.1b6f303dc88f4ef27c290ac93c4ad68f.svg",
+    "static/media/right.svg": "/coderiver/static/media/right.ae6a7f9ad15d12dc1ac067fefbda1c2b.svg",
+    "static/media/left.svg": "/coderiver/static/media/left.2e4a792ff38943f109c08e00baafb948.svg",
+    "index.html": "/coderiver/index.html",
+    "main.1b39b699.css.map": "/coderiver/static/css/main.1b39b699.css.map",
+    "main.7d319c3c.js.map": "/coderiver/static/js/main.7d319c3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b39b699.css",
+    "static/js/main.7d319c3c.js"
+  ]
+}
