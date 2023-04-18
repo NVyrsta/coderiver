@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/coderiver/static/css/main.1b39b699.css",
-    "main.js": "/coderiver/static/js/main.7d319c3c.js",
+    "main.css": "/coderiver/static/css/main.4045afc4.css",
+    "main.js": "/coderiver/static/js/main.3d4458cc.js",
     "static/media/hero-img.jpg": "/coderiver/static/media/hero-img.53102e031cab8cac5f5e.jpg",
     "static/media/slide-1.jpg": "/coderiver/static/media/slide-1.91750b0402190c7e5cb4.jpg",
     "static/media/slide-3.jpg": "/coderiver/static/media/slide-3.49f6f608f263aab80d92.jpg",
@@ -13,11 +13,11 @@
     "static/media/right.svg": "/coderiver/static/media/right.ae6a7f9ad15d12dc1ac067fefbda1c2b.svg",
     "static/media/left.svg": "/coderiver/static/media/left.2e4a792ff38943f109c08e00baafb948.svg",
     "index.html": "/coderiver/index.html",
-    "main.1b39b699.css.map": "/coderiver/static/css/main.1b39b699.css.map",
-    "main.7d319c3c.js.map": "/coderiver/static/js/main.7d319c3c.js.map"
+    "main.4045afc4.css.map": "/coderiver/static/css/main.4045afc4.css.map",
+    "main.3d4458cc.js.map": "/coderiver/static/js/main.3d4458cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b39b699.css",
-    "static/js/main.7d319c3c.js"
+    "static/css/main.4045afc4.css",
+    "static/js/main.3d4458cc.js"
   ]
 }
